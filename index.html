@@ -13,7 +13,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-image: url('Fimage.png'); /* Remplace 'images/ton_image.png' par le bon chemin */
+            background-image: url('images/ton_image.png'); /* Remplace par le chemin correct de l'image */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -22,7 +22,7 @@
         .container {
             width: 80%;
             max-width: 900px;
-            background-color: rgba(255, 255, 255, 0.9); /* Fond semi-transparent */
+            background-color: rgba(255, 255, 255, 0.9);
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
             overflow: hidden;
@@ -68,6 +68,21 @@
             from { opacity: 0; }
             to { opacity: 1; }
         }
+
+        .project-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .project-list li {
+            margin: 10px 0;
+            cursor: pointer;
+            color: #007BFF;
+        }
+
+        .project-list li:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 <body>
@@ -77,15 +92,21 @@
         <div class="tab active" onclick="showContent('projects')">Projets</div>
         <div class="tab" onclick="showContent('resume')">Résumé</div>
     </div>
+    
+    <!-- Section Projets -->
     <div id="projects" class="content active">
         <h2>Mes Projets</h2>
-        <p>Voici quelques-uns de mes projets :</p>
-        <ul>
-            <li>Projet 1: Description du projet 1.</li>
-            <li>Projet 2: Description du projet 2.</li>
-            <li>Projet 3: Description du projet 3.</li>
+        <ul class="project-list">
+            <li onclick="showProjectDetails('projet1')">Projet 1</li>
+            <li onclick="showProjectDetails('projet2')">Projet 2</li>
+            <li onclick="showProjectDetails('projet3')">Projet 3</li>
         </ul>
+        <div id="project-details">
+            <!-- Contenu du projet sélectionné s'affiche ici -->
+        </div>
     </div>
+
+    <!-- Section Résumé -->
     <div id="resume" class="content">
         <h2>Mon Résumé</h2>
         <p>Voici un résumé de mon parcours :</p>
@@ -109,6 +130,28 @@
 
         document.getElementById(tabId).classList.add('active');
         document.querySelector(`.tab[onclick="showContent('${tabId}')"]`).classList.add('active');
+    }
+
+    function showProjectDetails(projectId) {
+        const projectDetails = {
+            'projet1': `
+                <h3>Projet 1</h3>
+                <p>Description du projet 1.</p>
+                <p>Contenu détaillé du projet 1.</p>
+            `,
+            'projet2': `
+                <h3>Projet 2</h3>
+                <p>Description du projet 2.</p>
+                <p>Contenu détaillé du projet 2.</p>
+            `,
+            'projet3': `
+                <h3>Projet 3</h3>
+                <p>Description du projet 3.</p>
+                <p>Contenu détaillé du projet 3.</p>
+            `
+        };
+
+        document.getElementById('project-details').innerHTML = projectDetails[projectId];
     }
 </script>
 
