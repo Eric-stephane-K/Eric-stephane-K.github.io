@@ -3,19 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
-<link rel="stylesheet" href="style.css">
-<section id="projects">
-    <h2>Mes Projets</h2>
-    <div>
-        <h3>Projet 1</h3>
-        <p>Description de votre projet.</p>
-    </div>
-</section>
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
+        .container {
+            width: 80%;
+            max-width: 900px;
+            background-color: white;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .tabs {
+            display: flex;
+            cursor: pointer;
+        }
+
+        .tab {
+            flex: 1;
+            padding: 15px;
+            text-align: center;
+            background-color: #333;
+            color: white;
+            transition: background-color 0.3s;
+        }
+
+        .tab:hover {
+            background-color: #555;
+        }
+
+        .tab.active {
+            background-color: #007BFF;
+        }
+
+        .content {
+            padding: 20px;
+            display: none;
+        }
+
+        .content.active {
+            display: block;
+        }
+
+        /* Animation */
+        .content.active {
+            animation: fadeIn 0.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
 </head>
 <body>
-    <h1>Bienvenue sur mon Portfolio</h1>
-    <p>Je suis Eric Stephane Kamguia Kouam, passionné par Les réseaux informatiques et la cybersécurité.</p>
+
+<div class="container">
+    <div class="tabs">
+        <div class="tab active" onclick="showContent('projects')">Projets</div>
+        <div class="tab" onclick="showContent('resume')">Résumé</div>
+    </div>
+    <div id="projects" class="content active">
+        <h2>Mes Projets</h2>
+        <p>Voici quelques-uns de mes projets :</p>
+        <ul>
+            <li>Projet 1: Description du projet 1.</li>
+            <li>Projet 2: Description du projet 2.</li>
+            <li>Projet 3: Description du projet 3.</li>
+        </ul>
+    </div>
+    <div id="resume" class="content">
+        <h2>Mon Résumé</h2>
+        <p>Voici un résumé de mon parcours :</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ultricies purus.</p>
+        <p>Cursus professionnel, compétences, et autres informations importantes.</p>
+    </div>
+</div>
+
+<script>
+    function showContent(tabId) {
+        var contents = document.querySelectorAll('.content');
+        var tabs = document.querySelectorAll('.tab');
+
+        contents.forEach(content => {
+            content.classList.remove('active');
+        });
+
+        tabs.forEach(tab => {
+            tab.classList.remove('active');
+        });
+
+        document.getElementById(tabId).classList.add('active');
+        document.querySelector(`.tab[onclick="showContent('${tabId}')"]`).classList.add('active');
+    }
+</script>
+
 </body>
 </html>
