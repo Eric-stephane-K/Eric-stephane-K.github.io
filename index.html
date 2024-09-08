@@ -78,21 +78,26 @@
         <div class="tab" onclick="showContent('resume')">Résumé</div>
         <div class="tab" onclick="showContent('certificates')">Certificats</div>
     </div>
+    
+     <!-- Section Projets -->
     <div id="projects" class="content active">
         <h2>Mes Projets</h2>
-        <p>Voici quelques-uns de mes projets :</p>
-        <ul>
-            <li>Projet 1: </li>
-            <li>Projet 2: </li>
-            <li>Projet 3: </li>
+        <ul class="project-list">
+            <li onclick="showProjectDetails('projet1')">Projet 1</li>
+            <li onclick="showProjectDetails('projet2')">Projet 2</li>
+            <li onclick="showProjectDetails('projet3')">Projet 3</li>
         </ul>
-    </div>
+        <div id="project-details" class="project-details">
+            <!-- Contenu du projet sélectionné s'affiche ici -->
+        </div>
+     <!-- Section Résumé -->
     <div id="resume" class="content">
         <h2>Mon Résumé</h2>
         <p>Voici un résumé de mon parcours :</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel ultricies purus.</p>
         <p>Cursus professionnel, compétences, et autres informations importantes.</p>
     </div>
+</div>
     <div id="certificates" class="content">
         <h2>Mes Certificats</h2>
         <p>Voici quelques certificats que j'ai obtenus :</p>
@@ -115,7 +120,27 @@
 
         tabs.forEach(tab => {
             tab.classList.remove('active');
-        });
+        })
+
+          function showProjectDetails(projectId) {
+        const projectDetails = {
+            'projet1': 
+                <h3>Projet 1</h3>
+                <p>Description du projet 1.</p>
+                <p><a href="https://github.com/toncompte/tonrepo/projects/projet1.txt" target="_blank">Télécharger le fichier projet1.txt</a></p>
+            ,
+            'projet2': 
+                <h3>Projet 2</h3>
+                <p>Description du projet 2.</p>
+                <p><a href="https://github.com/toncompte/tonrepo/projects/projet2.pdf" target="_blank">Télécharger le fichier projet2.pdf</a></p>
+            ,
+            'projet3': 
+                <h3>Projet 3</h3>
+                <p>Description du projet 3.</p>
+                <p><a href="https://github.com/toncompte/tonrepo/projects/projet3.html" target="_blank">Voir le fichier projet3.html</a></p>
+            
+        };
+
 
         document.getElementById(tabId).classList.add('active');
         document.querySelector(`.tab[onclick="showContent('${tabId}')"]`).classList.add('active');
