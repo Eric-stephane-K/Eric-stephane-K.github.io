@@ -13,7 +13,7 @@
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-image: url('Fimage.png'); /* Remplace 'images/ton_image.png' par le bon chemin */
+            background-image: url('Fimage.png'); /* Remplace 'Fimage.png' par le bon chemin */
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -114,6 +114,7 @@
 
 <script>
     function showContent(tabId) {
+        // Cacher toutes les sections de contenu
         var contents = document.querySelectorAll('.content');
         var tabs = document.querySelectorAll('.tab');
 
@@ -121,10 +122,12 @@
             content.classList.remove('active');
         });
 
+        // Désactiver tous les onglets
         tabs.forEach(tab => {
             tab.classList.remove('active');
         });
 
+        // Afficher la section de contenu correspondant à l'onglet cliqué
         document.getElementById(tabId).classList.add('active');
         document.querySelector(`.tab[onclick="showContent('${tabId}')"]`).classList.add('active');
     }
