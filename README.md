@@ -27,7 +27,7 @@ My background in computer science has sparked a strong interest in cybersecurity
 ### Network
 <div>
     <img src="https://img.shields.io/badge/-Wireshark-1679A7?&style=for-the-badge&logo=Wireshark&logoColor=white" />
-    
+    <img src="https://img.shields.io/badge/-Windows%20Server%202019-0078D6?style=for-the-badge&logo=Windows%20Server&logoColor=white" />
 </div>
 
 ### OS
@@ -44,6 +44,7 @@ My background in computer science has sparked a strong interest in cybersecurity
 ### Others
 <div>
     <img src="https://img.shields.io/badge/-MATLAB-EB2B2C?style=for-the-badge&logo=MATLAB&logoColor=white" />
+   <img src="https://img.shields.io/badge/-MITRE%20ATT%26CK-0A4C8D?style=for-the-badge&logo=MITRE&logoColor=white" />
 </div>
 
 ## Certifications
@@ -55,5 +56,6 @@ My background in computer science has sparked a strong interest in cybersecurity
 </div>
 
 ## Projects
-- Detection Lab
-- SOC Automation Project
+- Vulnerability check on the UQO website.
+- Flow and access control on active directory.
+- Loss gradient as a function of antenna type and propagation channel modeling using ray tracing.
