@@ -60,3 +60,4 @@ My background in computer science has sparked a strong interest in cybersecurity
 | Vulnerability check on the UQO website|
 | Flow and access control on active directory|
 | Loss gradient as a function of antenna type and propagation channel modeling using ray tracing|
+| Apply SQL filter queries|
