@@ -20,7 +20,6 @@ My background in computer science has sparked a strong interest in cybersecurity
 | Scripting and Automation for Threat Mitigation | SOC Automation Lab|
 
 ## Tools
-[Provide tools and break them down into categories. Use ChatGPT to help create the link - Remove this afterwards]]
 
 ### Network
 <div>
@@ -28,15 +27,20 @@ My background in computer science has sparked a strong interest in cybersecurity
     
 </div>
 
-### Endpoint
+### OS
 <div>
-    <img src="https://img.shields.io/badge/-Microsoft_Defender_for_Endpoint-00A4EF?&style=for-the-badge&logo=Microsoft&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Velociraptor-4B275F?&style=for-the-badge&logo=Velociraptor&logoColor=white" />
+   <img src="https://img.shields.io/badge/-Kali%20Linux-557C94?style=for-the-badge&logo=Kali%20Linux&logoColor=white" />
+   <img src="https://img.shields.io/badge/-Windows-0078D6?style=for-the-badge&logo=Windows&logoColor=white" />
 </div>
 
 ### SIEM
 <div>
     <img src="https://img.shields.io/badge/-Splunk-000000?&style=for-the-badge&logo=Splunk&logoColor=white" /> 
+</div>
+
+### Others
+<div>
+    <img src="https://img.shields.io/badge/-MATLAB-EB2B2C?style=for-the-badge&logo=MATLAB&logoColor=white" />
 </div>
 
 ## Certifications
