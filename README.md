@@ -57,7 +57,7 @@ My background in computer science has sparked a strong interest in cybersecurity
 ## Projects
 | Title                                 | Associated                |
 |---------------------------------------|---------------------------|
-| Vulnerability check on the UQO website|
+| Vulnerability check on the UQO website| <a href="projets/Devoir 1 renseigement et analyse en cybersecurites.docx"> Rapport </a>|
 | Flow and access control on active directory|
 | Loss gradient as a function of antenna type and propagation channel modeling using ray tracing| <a href="
-| Apply SQL filter queries| <a href="https://github.com/Eric-stephane-K/Eric-stephane-K.github.io/blob/main/projets/Appliquer_des_requetes_de_filtres_SQL.docx"> </a>|
+| Apply SQL filter queries| <a href="https://github.com/Eric-stephane-K/Eric-stephane-K.github.io/blob/main/projets/Appliquer_des_requetes_de_filtres_SQL.docx"> Rapport </a>|
