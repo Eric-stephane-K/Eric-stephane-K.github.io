@@ -7,6 +7,9 @@ I am in the penultimate session of a master's degree in information science and 
 
 My background in computer science has sparked a strong interest in cybersecurity. I am now eager to enter this field, with the goal of joining a Security Operations Center (SOC) as a Tier 1 Analyst.
 
+## Languages
+   - French (Spoken, Written)
+   - English (Spoken, Written)
 ## Skills
 [Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]]
 
