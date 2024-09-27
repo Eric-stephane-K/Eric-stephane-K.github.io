@@ -11,7 +11,6 @@ My background in computer science has sparked a strong interest in cybersecurity
    - French (Spoken, Written)
    - English (Spoken, Written)
 ## Skills
-[Provide skills and associated project. Make sure to hyperlink the project - Remove this afterwards]]
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
@@ -48,7 +47,7 @@ My background in computer science has sparked a strong interest in cybersecurity
 </div>
 
 ## Certifications
-[Provide certifications that you have obtained. Use ChatGPT to help create the link - Remove this afterwards]]
+
 <div>
 <img src="https://img.shields.io/badge/-Maltego%20Foundations%201-FF0000?style=for-the-badge&logo=Maltego&logoColor=white" />
 <img src="https://img.shields.io/badge/-Maltego%20Certifications%20for%20Cybersecurity%20Investigations-007ACC?style=for-the-badge&logo=Maltego&logoColor=white" />
@@ -56,6 +55,8 @@ My background in computer science has sparked a strong interest in cybersecurity
 </div>
 
 ## Projects
-- Vulnerability check on the UQO website.
-- Flow and access control on active directory.
-- Loss gradient as a function of antenna type and propagation channel modeling using ray tracing.
+| Title                                 | Associated                |
+|---------------------------------------|---------------------------|
+| Vulnerability check on the UQO website|
+| Flow and access control on active directory|
+| Loss gradient as a function of antenna type and propagation channel modeling using ray tracing|
