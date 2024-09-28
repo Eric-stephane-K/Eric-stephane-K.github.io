@@ -50,6 +50,7 @@ My background in computer science has sparked a strong interest in cybersecurity
 <div>
     <img src="https://img.shields.io/badge/-MATLAB-EB2B2C?style=for-the-badge&logo=MATLAB&logoColor=white" />
    <img src="https://img.shields.io/badge/-MITRE%20ATT%26CK-0A4C8D?style=for-the-badge&logo=MITRE&logoColor=white" />
+   <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=Python&logoColor=white" />
 </div>
 
 ## Certifications
