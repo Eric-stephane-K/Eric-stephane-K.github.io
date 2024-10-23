@@ -57,8 +57,12 @@ My background in computer science has sparked a strong interest in cybersecurity
 ## Certifications
 
 <div>
-<img src="https://img.shields.io/badge/-Maltego%20Foundations%201-FF0000?style=for-the-badge&logo=Maltego&logoColor=white" />
-<img src="https://img.shields.io/badge/-Maltego%20Certifications%20for%20Cybersecurity%20Investigations-007ACC?style=for-the-badge&logo=Maltego&logoColor=white" />
+<a href="projets/Coursera Google certifycate.pdf" target="_blank"> 
+   <img src="https://img.shields.io/badge/-Maltego%20Foundations%201-FF0000?style=for-the-badge&logo=Maltego&logoColor=white" />
+</a>
+<a href="projets/Coursera Google certifycate.pdf" target="_blank">   
+   <img src="https://img.shields.io/badge/-Maltego%20Certifications%20for%20Cybersecurity%20Investigations-007ACC?style=for-the-badge&logo=Maltego&logoColor=white" />
+</a>
 <a href="projets/Coursera Google certifycate.pdf" target="_blank">
    <img src="https://img.shields.io/badge/-Google%20Cybersecurity%20Certificate-4285F4?style=for-the-badge&logo=Google&logoColor=white" />
    </div>
