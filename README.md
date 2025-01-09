@@ -27,6 +27,7 @@ My background in computer science has sparked a strong interest in cybersecurity
 | Apply SQL filter queries|<a href="https://github.com/Eric-stephane-K/Eric-stephane-K.github.io/blob/main/projets/Appliquer_des_requetes_de_filtres_SQL.docx"> Rapport </a>|
 | Python | <a href= "projets/Portfolio-Activity-Update-a-file-through-a-Python-algorithm_Exemplar---Update-a-file-through-a-Python-algorithm.docx"> Rapport <a/>|
 | Projet apprentissage machine | <a href= "projets/exercice_ Machine_learning_applique_Cybersecuritecode(2).ipynb"> Rapport <a/>|
+| Projet apprentissage machine | <a href= ""> Rapport <a/>|
 
 ## Tools
 
