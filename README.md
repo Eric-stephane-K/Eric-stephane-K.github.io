@@ -26,8 +26,8 @@ My background in computer science has sparked a strong interest in cybersecurity
 | Loss gradient as a function of antenna type and propagation channel modeling using ray tracing | <a href="projets/Projet_Session_communication_sans_fil.docx"> Rapport </a>
 | Apply SQL filter queries|<a href="https://github.com/Eric-stephane-K/Eric-stephane-K.github.io/blob/main/projets/Appliquer_des_requetes_de_filtres_SQL.docx"> Rapport </a>|
 | Python | <a href= "projets/Portfolio-Activity-Update-a-file-through-a-Python-algorithm_Exemplar---Update-a-file-through-a-Python-algorithm.docx"> Rapport <a/>|
-| Projet apprentissage machine | <a href= "projets/exercice_ Machine_learning_applique_Cybersecuritecode(2).ipynb"> Rapport <a/>|
-| Projet apprentissage machine | <a href= ""> Rapport <a/>|
+| machine Learning Project | <a href= "projets/exercice_ Machine_learning_applique_Cybersecuritecode(2).ipynb"> Rapport <a/>|
+| Machine Learning Project for Detecting Malicious Software Behavior in Memory | <a href= "projets/Presentation projet modele machine-learning obfuscated malware in Memory.pptx"> Rapport <a/>|
 
 ## Tools
 
