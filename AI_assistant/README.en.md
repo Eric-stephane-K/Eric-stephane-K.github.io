@@ -1,6 +1,6 @@
 # SongWish API — Modular Architecture (Flask)
 
-[![CI](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/REPO/actions/workflows/ci.yml)
+[![CI](https://github.com/Eric-stephane-K/Eric-stephane-K.github.io/actions/workflows/ci.yml/badge.svg)](https://github.com/Eric-stephane-K/Eric-stephane-K.github.io/actions/workflows/ci.yml)
 
 > E‑commerce + RAG/LLM API for SongWish, organized with **horizontal domain modularization** (config, security, FastSpring, RAG/AI, routes).
 
