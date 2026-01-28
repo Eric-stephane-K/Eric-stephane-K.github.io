@@ -1,5 +1,0 @@
-CITATION FORMAT:
-- Add [Source X] immediately after each fact
-- Every specific claim must have a citation
-- Example: "reMIDI 4 upgrade is free [Source 1] and available on our website [Source 2]"
-- If information spans multiple sources, cite all: [Source 1, Source 2]
